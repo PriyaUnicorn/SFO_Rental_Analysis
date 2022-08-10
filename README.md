@@ -17,8 +17,40 @@ Calculated the number of housing units per year and visualize the results as a b
 
 Default Bar Chart
 
-  ![Avg-SF-units-peryear.png](Images/Avg-SF-units-peryear.png)
+  ![unscaled-bar.png](Images/Avg-SF-units-peryear.png)
 
 Bar Chart with y-axis limits adjusted
 
-  ![scaled-bar.png](Images/scaled-bar.png)
+  ![scaled-bar.png](Images/zoomed-housing-units-by-year.png)
+
+
+#### Average Gross Rent in San Francisco Per Year
+
+Visualized the average gross rent per year to better understand the trends for rental income over time. Visualized the average (mean) gross rent per year and visualized it as a line chart.
+
+1. Calculated the mean `gross` for each year.
+2. Visualized the mean gross rent per year as a line chart.
+
+  ![gross-rent.png](Images/avg-sale-px-sq-foot-gross-rent.png)
+  
+  #### Average Prices By Neighborhood
+
+Compared the average prices by neighborhood.
+
+1. Grouped the data by year and by neighborhood and calculated the average (mean) `sales_price_sqr_foot`.
+2. Visualized the mean `sales_price_sqr_foot` per year with the neighborhood as a dropdown selector.
+
+  ![avg-price-neighborhood.png](Images/pricing-info-by-neighborhood.png)
+  
+  
+  #### Neighborhood Map
+
+Read in neighborhood location data and built an interactive map with the average prices per neighborhood. Used a scatter mapbox object from plotly express to create the visualization. I used the mapbox API key for this.
+
+  ![neighborhood-map.png](Images/6-4-geoviews-plot.png)
+  
+  
+  
+  
+  
+  
